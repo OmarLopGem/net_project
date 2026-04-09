@@ -45,13 +45,10 @@
       </div>
     </nav>
     <div class="container">
-        <form id="form1" runat="server" class="form-horizontal">
+        <form id="form1" runat="server" class="form-horizontal" ClientIDMode="Static">
             
             <main class="row">
                 <div class="col-sm-12 main-container">
-                    <h1>
-                        <asp:Label ID="lblPageHeader" runat="server" Text="Label"></asp:Label>
-                    </h1>
                     <asp:ContentPlaceHolder ID="mainPlaceHolder" runat="server"></asp:ContentPlaceHolder>
                 </div>
             </main>
