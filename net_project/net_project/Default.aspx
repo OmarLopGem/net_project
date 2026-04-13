@@ -1,19 +1,18 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="net_project._Default" %>
+﻿<%@ Page Title="Login Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="net_project._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="mainPlaceHolder" runat="server">
-
-    <asp:ValidationSummary 
-        ID="vsErrors" 
-        runat="server"
-        CssClass="alert alert-danger"
-        HeaderText="Please fix the following errors:"
-        DisplayMode="BulletList"
-        ShowSummary="true" />
     <div class="row login-page">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+            <asp:ValidationSummary 
+                ID="vsErrors" 
+                runat="server"
+                CssClass="alert alert-danger"
+                HeaderText="Please fix the following errors:"
+                DisplayMode="BulletList"
+                ShowSummary="true" />
             <div class="login-box">
-                <h2 class="text-center">Login</h2>
-                <p class="text-center  text-muted">Sign in to continue</p>
+                <h2 class="text-center">FIFA FAN ZONE</h2>
+                <p class="text-center  text-muted">Sign in to access tickets, jerseys, and match experiences for the FIFA 2026 World Cup.</p>
 
                 <div class="form-group">
                     <label for="txtEmail">Email</label>
