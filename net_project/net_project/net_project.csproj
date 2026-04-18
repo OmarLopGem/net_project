@@ -121,6 +121,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Jerseys.aspx" />
+    <Content Include="Logout.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
@@ -196,6 +197,13 @@
     </Compile>
     <Compile Include="Jerseys.aspx.designer.cs">
       <DependentUpon>Jerseys.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="models\CartItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

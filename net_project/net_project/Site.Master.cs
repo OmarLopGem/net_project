@@ -12,9 +12,11 @@ namespace net_project
         protected void Page_Load(object sender, EventArgs e)
         {
             bool loggedIn = Session["UserId"] != null;
+            bool isAdmin = Session["IsAdmin"] != null && (bool)Session["IsAdmin"];
 
             phGuest.Visible = !loggedIn;
             phUser.Visible = loggedIn;
+            phAdmin.Visible = loggedIn && isAdmin;
         }
     }
 }

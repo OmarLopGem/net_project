@@ -66,6 +66,14 @@
                     </asp:HyperLink>
                 </li>
             </asp:PlaceHolder>
+
+            <asp:PlaceHolder ID="phAdmin" runat="server">
+                <li>
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Admin" runat="server">
+                        <span class="glyphicon glyphicon-cog"></span> Admin
+                    </asp:HyperLink>
+                </li>
+            </asp:PlaceHolder>
             
           </ul>
         </div>

@@ -22,16 +22,7 @@ namespace net_project
                 Response.Redirect("~/Tickets.aspx");
                 return;
             }
-
-            if (!IsPostBack)
-            {
-                LoadJerseys();
-                LoadMatches();
-                LoadTickets();
-                LoadMatchDropdown();
-            }
         }
-
 
     }
 }

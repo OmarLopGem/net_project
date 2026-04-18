@@ -33,7 +33,7 @@ namespace net_project
             {
                 conn.Open();
 
-                string query = "SELECT id, full_name, email, password_hash FROM users WHERE email = @email";
+                string query = "SELECT id, full_name, email, password_hash, is_admin FROM users WHERE email = @email";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
@@ -47,9 +47,10 @@ namespace net_project
 
                             if (password == storedPasswword)
                             {
-                                Session["UserID"] = reader["id"].ToString();
+                                Session["UserId"] = reader["id"].ToString();
                                 Session["FullName"] = reader["full_name"].ToString();
                                 Session["Email"] = reader["email"].ToString();
+                                Session["IsAdmin"] = Convert.ToBoolean(reader["is_admin"]);
 
                                 if (chkRememberMe.Checked)
                                 {
