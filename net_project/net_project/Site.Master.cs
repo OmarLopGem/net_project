@@ -11,7 +11,10 @@ namespace net_project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            bool loggedIn = Session["UserId"] != null;
 
+            phGuest.Visible = !loggedIn;
+            phUser.Visible = loggedIn;
         }
     }
 }

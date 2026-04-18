@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.IO;
-using System.Linq;
 using System.Web;
 using System.Web.Optimization;
 using System.Web.Routing;
-using System.Web.Security;
 using System.Web.SessionState;
 
 namespace net_project
@@ -26,8 +23,10 @@ namespace net_project
         {
             string mdfPath = Server.MapPath("~/App_Data/Database1.mdf");
 
-            string connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;
-        AttachDbFilename={mdfPath};Integrated Security=True";
+            if (!File.Exists(mdfPath))
+                throw new Exception("No se encontró la base de datos: " + mdfPath);
+
+            string connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={mdfPath};Integrated Security=True;Connect Timeout=30;Encrypt=False";
 
             using (var conn = new SqlConnection(connectionString))
             {
@@ -52,6 +51,7 @@ namespace net_project
                 foreach (var sql in commands)
                 {
                     if (string.IsNullOrWhiteSpace(sql)) continue;
+
                     using (var cmd = new SqlCommand(sql, conn))
                     {
                         cmd.ExecuteNonQuery();

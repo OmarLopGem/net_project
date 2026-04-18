@@ -30,16 +30,43 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li runat="server">
-                <asp:HyperLink NavigateUrl="~/Default" runat="server">
-                    <span class="glyphicon glyphicon-home"></span> Home
-                </asp:HyperLink>
-            </li>
-            <li runat="server">
-                <asp:HyperLink NavigateUrl="~/Products" runat="server">
-                    <span class="glyphicon glyphicon-tag"></span> Products
-                </asp:HyperLink>
-            </li>
+
+            <asp:PlaceHolder ID="phGuest" runat="server">
+                <li runat="server">
+                    <asp:HyperLink NavigateUrl="~/Default" runat="server">
+                        <span class="glyphicon glyphicon-log-in"></span> Login
+                    </asp:HyperLink>
+                </li>
+                <li runat="server">
+                    <asp:HyperLink NavigateUrl="~/Signup" runat="server">
+                        <span class="glyphicon glyphicon-user"></span> Sign Up
+                    </asp:HyperLink>
+                </li>
+            </asp:PlaceHolder>
+
+            <asp:PlaceHolder ID="phUser" runat="server" Visible="false">
+                <li runat="server">
+                    <asp:HyperLink NavigateUrl="~/Tickets" runat="server">
+                        <span class="glyphicon glyphicon-ticket"></span> Tickets
+                    </asp:HyperLink>
+                </li>
+                <li runat="server">
+                    <asp:HyperLink NavigateUrl="~/Jerseys" runat="server">
+                        <span class="glyphicon glyphicon-shopping-shirt"></span> Jerseys
+                    </asp:HyperLink>
+                </li>
+                <li>
+                    <asp:HyperLink NavigateUrl="~/Cart" runat="server">
+                        <span class="glyphicon glyphicon-shopping-cart"></span> Cart
+                    </asp:HyperLink>
+                </li>
+                <li>
+                    <asp:HyperLink NavigateUrl="~/Logout" runat="server">
+                        <span class="glyphicon glyphicon-log-out"></span> Logout
+                    </asp:HyperLink>
+                </li>
+            </asp:PlaceHolder>
+            
           </ul>
         </div>
       </div>

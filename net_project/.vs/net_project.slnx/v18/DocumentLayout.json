@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|c:\\users\\jolop\\documents\\conestoga\\3rd\\net\\group project\\net_project\\net_project\\net_project\\tickets.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\tickets.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\tickets.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\tickets.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|c:\\users\\jolop\\documents\\conestoga\\3rd\\net\\group project\\net_project\\net_project\\net_project\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|c:\\users\\jolop\\documents\\conestoga\\3rd\\net\\group project\\net_project\\net_project\\net_project\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|c:\\users\\jolop\\documents\\conestoga\\3rd\\net\\group project\\net_project\\net_project\\net_project\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|c:\\users\\jolop\\documents\\conestoga\\3rd\\net\\group project\\net_project\\net_project\\net_project\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|c:\\users\\jolop\\documents\\conestoga\\3rd\\net\\group project\\net_project\\net_project\\net_project\\jerseys.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\jerseys.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|c:\\users\\jolop\\documents\\conestoga\\3rd\\net\\group project\\net_project\\net_project\\net_project\\jerseys.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\jerseys.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|c:\\users\\jolop\\documents\\conestoga\\3rd\\net\\group project\\net_project\\net_project\\net_project\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\tickets.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\tickets.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{2FC1390C-1E15-4EBC-8CF8-C643ED5753E0}|net_project\\net_project.csproj|solutionrelative:net_project\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tickets.aspx",
-              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Tickets.aspx",
-              "RelativeDocumentMoniker": "net_project\\Tickets.aspx",
-              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Tickets.aspx",
-              "RelativeToolTip": "net_project\\Tickets.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-13T19:51:12.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Default.aspx",
               "RelativeDocumentMoniker": "net_project\\Default.aspx",
@@ -47,20 +74,161 @@
               "RelativeToolTip": "net_project\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-05T15:04:19.822Z",
+              "WhenOpened": "2026-04-18T14:42:07.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "net_project\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Default.aspx.cs",
+              "RelativeToolTip": "net_project\\Default.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T14:42:08.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Global.asax.cs",
+              "RelativeDocumentMoniker": "net_project\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Global.asax.cs",
+              "RelativeToolTip": "net_project\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T14:40:32.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Web.config",
+              "RelativeDocumentMoniker": "net_project\\Web.config",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Web.config",
+              "RelativeToolTip": "net_project\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-18T14:38:22.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tickets.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Tickets.aspx.cs",
+              "RelativeDocumentMoniker": "net_project\\Tickets.aspx.cs",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Tickets.aspx.cs",
+              "RelativeToolTip": "net_project\\Tickets.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T22:51:59.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Admin.aspx.cs",
+              "RelativeDocumentMoniker": "net_project\\Admin.aspx.cs",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Admin.aspx.cs",
+              "RelativeToolTip": "net_project\\Admin.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T23:17:28.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jerseys.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Jerseys.aspx.cs",
+              "RelativeDocumentMoniker": "net_project\\Jerseys.aspx.cs",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Jerseys.aspx.cs",
+              "RelativeToolTip": "net_project\\Jerseys.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T14:41:57.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Jerseys.aspx",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Jerseys.aspx",
+              "RelativeDocumentMoniker": "net_project\\Jerseys.aspx",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Jerseys.aspx",
+              "RelativeToolTip": "net_project\\Jerseys.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-18T14:41:53.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.aspx",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Admin.aspx",
+              "RelativeDocumentMoniker": "net_project\\Admin.aspx",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Admin.aspx",
+              "RelativeToolTip": "net_project\\Admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-17T23:14:50.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Site.Master.cs",
               "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Site.Master.cs",
               "RelativeDocumentMoniker": "net_project\\Site.Master.cs",
               "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Site.Master.cs",
               "RelativeToolTip": "net_project\\Site.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T15:04:30.455Z",
+              "WhenOpened": "2026-04-17T22:59:11.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tickets.aspx",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Tickets.aspx",
+              "RelativeDocumentMoniker": "net_project\\Tickets.aspx",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Tickets.aspx",
+              "RelativeToolTip": "net_project\\Tickets.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-17T22:51:57.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\models\\CartItem.cs",
+              "RelativeDocumentMoniker": "net_project\\models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\models\\CartItem.cs",
+              "RelativeToolTip": "net_project\\models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T23:12:11.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Site.Master",
+              "RelativeDocumentMoniker": "net_project\\Site.Master",
+              "ToolTip": "C:\\Users\\jolop\\Documents\\Conestoga\\3rd\\NET\\Group project\\net_project\\net_project\\net_project\\Site.Master",
+              "RelativeToolTip": "net_project\\Site.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-17T22:55:45.487Z",
               "EditorCaption": ""
             }
           ]

@@ -13,12 +13,6 @@
                     <h4 class="panel-title">Filter Tickets</h4>
                 </div>
                 <div class="panel-body">
-                    <div class="form-group">
-                        <label for="<%= ddlCity.ClientID %>">City</label>
-                        <asp:DropDownList ID="ddlCity" runat="server" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="ddlCity_SelectedIndexChanged">
-                            <asp:ListItem Text="All Cities" Value="" />
-                        </asp:DropDownList>
-                    </div>
 
                     <div class="form-group">
                         <label for="<%= txtTeam.ClientID %>">Team</label>
@@ -40,17 +34,16 @@
                 runat="server" 
                 AutoGenerateColumns="False"
                 CssClass="table table-striped table-bordered table-hover"
-                DataKeyNames="ticket_id"
+                DataKeyNames="id"
                 OnRowCommand="gvTickets_RowCommand">
                 <Columns>
                     <asp:BoundField DataField="home_team" HeaderText="Home Team" />
                     <asp:BoundField DataField="away_team" HeaderText="Away Team" />
                     <asp:BoundField DataField="match_date" HeaderText="Date" DataFormatString="{0:MMM dd, yyyy hh:mm tt}" />
-                    <asp:BoundField DataField="stadium" HeaderText="Stadium" />
-                    <asp:BoundField DataField="city" HeaderText="City" />
-                    <asp:BoundField DataField="ticket_type" HeaderText="Ticket Type" />
+                    <asp:BoundField DataField="venue" HeaderText="Venue" />
+                    <asp:BoundField DataField="category" HeaderText="Category" />
                     <asp:BoundField DataField="price" HeaderText="Price" DataFormatString="{0:C}" />
-                    <asp:BoundField DataField="available_quantity" HeaderText="Available" />
+                    <asp:BoundField DataField="stock" HeaderText="Available" />
 
                     <asp:TemplateField HeaderText="Quantity">
                         <ItemTemplate>
@@ -71,12 +64,11 @@
                                 Text="Add to Cart"
                                 CssClass="btn btn-success btn-sm"
                                 CommandName="AddToCart"
-                                CommandArgument='<%# Eval("ticket_id") %>' />
+                                CommandArgument='<%# Eval("id") %>' />
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
             </asp:GridView>
         </div>
     </div>
-
 </asp:Content>

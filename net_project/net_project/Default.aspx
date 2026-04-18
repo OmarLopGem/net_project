@@ -74,7 +74,7 @@
                         ID="btnLogin"
                         runat="server"
                         Text="Login"
-                        CssClass="btn btn-primary btn-block" />
+                        CssClass="btn btn-primary btn-block" OnClick="btnLogin_Click" />
                 </div>
 
                 <div class="text-center">
