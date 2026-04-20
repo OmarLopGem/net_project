@@ -76,7 +76,10 @@
                         Text="Login"
                         CssClass="btn btn-primary btn-block" OnClick="btnLogin_Click" />
                 </div>
-
+                <hr />
+                    <p class="text-center text-muted">
+                        Don't have an account? <a href="~/Register.aspx" runat="server">Sign up here</a>
+                    </p>
                 <div class="text-center">
                     <asp:Label ID="lblMessage" runat="server"></asp:Label>
                 </div>
