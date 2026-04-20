@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/net_project/net_project/App_Data/Database1.mdf
+/net_project/net_project/App_Data/Database1_log.ldf

@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿// Tickets.aspx.cs
+using System;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using net_project.Models;
@@ -14,13 +12,13 @@ namespace net_project
     public partial class Tickets : System.Web.UI.Page
     {
         string connectionString = ConfigurationManager.ConnectionStrings["Database1Connection"].ConnectionString;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["UserId"] == null)
             {
                 Response.Redirect("~/Default.aspx");
             }
-
             if (!IsPostBack)
             {
                 LoadTickets();
@@ -32,7 +30,6 @@ namespace net_project
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-
                 string query = @"
                     SELECT 
                         t.id,
@@ -55,7 +52,6 @@ namespace net_project
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@team", team);
-
                     using (SqlDataAdapter da = new SqlDataAdapter(cmd))
                     {
                         DataTable dt = new DataTable();
@@ -74,44 +70,40 @@ namespace net_project
 
         protected void gvTickets_RowCommand(object sender, GridViewCommandEventArgs e)
         {
-            if (e.CommandName == "AddToCart")
+            if (e.CommandName != "AddToCart") return;
+
+            int ticketId = Convert.ToInt32(e.CommandArgument);
+
+            GridViewRow row = ((Button)e.CommandSource).NamingContainer as GridViewRow;
+            DropDownList ddlQuantity = row.FindControl("ddlQuantity") as DropDownList;
+            int quantity = Convert.ToInt32(ddlQuantity.SelectedValue);
+
+            string description;
+            decimal unitPrice;
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                int ticketId = Convert.ToInt32(e.CommandArgument);
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(@"
+                    SELECT t.category, t.price, m.home_team, m.away_team
+                    FROM tickets t
+                    INNER JOIN matches m ON t.match_id = m.id
+                    WHERE t.id = @id", conn);
+                cmd.Parameters.AddWithValue("@id", ticketId);
 
-                GridViewRow row = ((Button)e.CommandSource).NamingContainer as GridViewRow;
-                DropDownList ddlQuantity = row.FindControl("ddlQuantity") as DropDownList;
-                int quantity = Convert.ToInt32(ddlQuantity.SelectedValue);
-
-                string matchName = row.Cells[0].Text + " vs " + row.Cells[1].Text;
-                decimal price = Convert.ToDecimal(row.Cells[5].Text.Replace("$", "").Replace(",", ""));
-
-                List<CartItem> cart = Session["Cart"] as List<CartItem>;
-                if (cart == null)
+                using (SqlDataReader reader = cmd.ExecuteReader())
                 {
-                    cart = new List<CartItem>();
+                    reader.Read();
+                    description = reader["home_team"] + " vs " + reader["away_team"]
+                                + " - " + reader["category"];
+                    unitPrice = (decimal)reader["price"];
                 }
-
-                CartItem existingItem = cart.Find(x => x.ProductId == ticketId && x.ProductType == "Ticket");
-
-                if (existingItem != null)
-                {
-                    existingItem.Quantity += quantity;
-                }
-                else
-                {
-                    cart.Add(new CartItem
-                    {
-                        ProductId = ticketId,
-                        ProductType = "Ticket",
-                        Name = matchName,
-                        Price = price,
-                        Quantity = quantity
-                    });
-                }
-
-                Session["Cart"] = cart;
-                lblMessage.Text = "Ticket added to cart successfully.";
             }
+
+            CartItemList cart = CartItemList.GetCart();
+            cart.AddItem(ticketId, "ticket", description, unitPrice, quantity);
+
+            lblMessage.Text = "Ticket added to cart successfully.";
         }
     }
 }
